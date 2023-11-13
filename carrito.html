@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Carrito de Compras</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <button class="logo">Carrito de Compras</button>
+            <div class="nav-buttons">
+                <!-- Puedes agregar más botones de navegación aquí si es necesario -->
+            </div>
+        </div>
+    </header>
+
+    <section id="productos">
+        <!-- Puedes agregar contenido del carrito aquí si es necesario -->
+    </section>
+
+    
+    <div id="modalCarrito" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" id="cerrarModal">&times;</span>
+            <h2>Carrito de compras</h2>
+            <ul id="itemsCarrito"></ul>
+            <div id="productosCarrito" class="productos-carrito">
+                <!-- Aquí se mostrarán las imágenes y nombres de los productos en el carrito -->
+            </div>
+            <p id="precioTotal">Total: $0</p>
+            <button id="botonPagar">Pagar</button>
+        </div>
+    </div>
+
+
+    <script src="./js/carrito.js"></script>
+</body>
+
+</html>
